@@ -1,0 +1,281 @@
+html { 
+  background: url("../img/portfolioheroimage.jpg") no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* navigation */
+.nav{
+	position: fixed;
+	width: 100%;
+	float:right;
+}
+.nav img{
+	width: 2%;
+	margin: 6px 10px;
+}
+.nav ul li{
+	display: inline-block;
+	float: right;
+	margin: auto 2px;
+	text-shadow: 2px 2px black;
+}
+.nav ul li a{ 
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: white;
+	transition: color 600ms;
+	-webkit-transition: color 600ms; /* Safari */
+	padding: 0;
+}
+.nav li{
+	float: right;
+}
+.nav a:hover{
+	color: #ff0;
+	text-decoration: none;
+}
+.portfolio{
+    font-size: 16px;
+    padding: 13px;
+
+}
+.portfolio a{
+	color: white;
+	padding: 15px;
+	bottom-padding: 0;
+	position:relative;
+}
+.portfolio img{
+	width: 25px;
+	margin-left: 30px;
+
+}
+.panel-heading{
+	background-color: purple;
+}
+
+.carousel-caption h3{
+	color: white;
+	text-shadow: 1px 1px black;
+}
+.carousel-caption p{
+	text-shadow: 1px 1px black;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+ }
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.row{
+	margin-right: auto;
+}
+.anchor{
+	padding-top: 50px;
+}
+
+/* 								About 										*/
+#about{
+	text-align: center;
+	background-color: #E2DA99;
+	width: 100%;
+}
+.header img {
+	margin: 0 auto;
+	border: 1px solid;
+    border-radius: 100px;
+}
+
+.main_text {
+    clear: both;
+    border: 4px dashed #342800;
+    margin: 2% auto;
+    width: 95%;
+}
+.main_text > h3{
+        text-align: center;
+}
+.main_text p{
+        margin: 10px;
+}
+.skills{
+        background-color: #342800;
+        color: #FFF;
+        padding-bottom: 10px;
+}
+.skills ul{
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+}
+.skills h2{
+	text-align: center;
+}
+
+/* body {
+        background-color: #343838;
+        color: white;
+} */
+#shortintro p{
+    text-align: center;
+}
+#shortintro h2{
+    text-align: center;
+}
+.row{
+    padding: 0 2%;
+}
+
+/*								WORK				*/
+#work{
+	width: 100%;
+	display: block;
+	background-color: #ADD8E6;
+
+}
+#work h1{
+	text-align: center;
+}
+.row img{
+	margin: 0 auto;
+}
+.row h3{
+	text-align: center;
+}
+
+
+
+/*        						FAQ 				*/
+#faq{
+	background-color: green;
+	background-color: #EA8676;
+	padding-bottom: 50px;
+}
+#faq h1{
+	text-align: center;
+	color:white;
+}
+#accordion{
+	position: relative;
+}
+.panel > .panel-heading{
+	background-color: #519548;
+	color: white;
+
+}
+.panel-body{
+	background-color: #A8DBA8;
+}
+
+
+/* contact */
+#contact{
+	background-image: url("../img/appledesk.jpg");
+	/* Add a background image */
+	background-attachment: fixed;
+	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
+	background-size: cover;
+	/* Have the background cover entire div */
+	color: white;
+	/* Change color of text on top so its readable, adjust padding as needed */
+	padding: 100px;
+	padding-top: 50px;
+
+}
+.main{
+	display: inline-block;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 100%;
+}
+.main h2{
+	font-weight: 600;
+	color: #F8F8FF;
+	text-align: center;
+	text-shadow: 2px 0 black;
+}
+.main ul{
+    list-style-type: none;
+    padding-left: 750px;
+
+}
+.main img{
+	display:block;
+	width: 20%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+
+}
+
+.contact_form{
+	border: 1px dotted black;
+	width: 45%;	
+	float: right;
+	padding-bottom: 325px;
+}
+.wrapper{
+	width: 100%;
+	margin: auto auto;
+}
+
+.glyphicon:hover{
+    color: blue;
+    text-decoration: none;
+}
+/* Video */
+.video{
+	padding: 20px;
+}
+.video iframe{
+	margin: 0 auto;
+	display: block;
+
+
+}
+/* Footer */
+footer{
+	height: 25px;
+	padding-top: 5px;
+	background-color: black;
+	color:white;
+}
+footer p{
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin-right: 100px;
+}
+
+.fb-like{
+	float:right;
+	padding: 0 5px;
+}
+.twitter-follow-button{
+	float: right;
+	min-width: 160px;
+	padding: 0 5px;
+}
+
+
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+a, {
+        font-family: 'Source Sans Pro', 'Roboto', 'Oxygen', sans-serif;
+}
+ 
+p,
+{
+        font-family: Georgia, Palatino, serif;
+}

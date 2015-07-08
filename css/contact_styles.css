@@ -1,0 +1,49 @@
+
+body{
+	background-color: #DCE0E6;
+}
+.jumbotron {
+ background-image: url("../img/space.jpg");
+ background-size: cover;
+}
+.jumbotron p {
+	color: white;
+}
+.main{
+	float: left;
+	display: inline-block;
+    border: 1px solid black;
+    width: 45%;
+    background-color: #00B4CC;
+}
+.main h2{
+	font-weight: 600;
+	color: #2B4C7E;
+	text-align: center;
+}
+.main li{
+    list-style-type: none;
+}
+.main img{
+	display:block;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.contact_form{
+	border: 1px dotted black;
+	width: 45%;	
+	float: right;
+	padding-bottom: 325px;
+}
+.wrapper{
+	width: 100%;
+	padding: 0 100px;
+}
+
+.glyphicon:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+

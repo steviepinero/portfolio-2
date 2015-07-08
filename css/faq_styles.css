@@ -1,0 +1,9 @@
+#accordion{
+	position: relative;
+}
+.panel > .panel-heading{
+	background-color: #3B8686;
+}
+.panel-body{
+	background-color: #A8DBA8;
+}
