@@ -63,7 +63,7 @@
 <!-- Nav ends -->
 
 <!-- Carousel Begins -->
-<div class="container-fluid">
+<div class="container-fluid" id="intro">
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -243,8 +243,8 @@
 
 <!-- CONTACT -->
 <div class="container-fluid anchor" id="contact">
-<div class="wrapper">
-    <div class="main col-md-6 col-xs-12">
+<div class="container col-lg-4 col-xs-12">
+    <div class="main">
       <h2>Reach me at</h2>
       <ul>
         <li><p><strong><span class="glyphicon glyphicon-earphone"</span></strong> 301-123-4567</p></li>
@@ -254,12 +254,39 @@
       <img src="img/map.jpg" alt="map">
     </div><!-- /main -->
 </div><!-- /wrapper -->
+
+<div class="container col-lg-8 col-xs-12">
+  <form class="main">
+    <h2>Send me a message</h2>
+    <div class="form-group">
+      <!-- Name -->
+      <label for="name">Name</label>
+      <input type="textBox" id="name" title="Your full name" placeholder="Your name" minlength="2"></input>
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" required="required" placeholder="youremail@example.com">
+      <!-- Telephone -->
+      <label for="phone">Phone(not required):</label>
+      <input type="tel" id="phone" placeholder="(301)-444-5674"
+      <!-- Message -->
+      <textarea placeholder="Your message here" id="message" class="message-box form-control" required="required" style="resize:none" cols="40" rows="5"></textarea>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+
+
+
+
+
+      
+      
+    </div><!-- form-group -->
+  </form>
+</div><!-- container -->
+
+<!-- FORM -->
+
 </div>
 
-<form>
-<div class="form-group"><input type="text"></div>
-</form>
-<!-- END CONTACT -->
 
 
 

@@ -6,6 +6,11 @@ html {
   background-size: cover;
 }
 
+/* Intro */
+#intro{
+	background-color: white;
+}
+
 /* navigation */
 .nav{
 	position: fixed;
@@ -192,27 +197,20 @@ html {
 }
 .main{
 	display: inline-block;
-    border: 1px solid black;
+/*  border: 1px solid black; */
     margin: 0 auto;
     width: 100%;
 }
 .main h2{
 	font-weight: 600;
 	color: #F8F8FF;
-	text-align: center;
 	text-shadow: 2px 0 black;
 }
 .main ul{
     list-style-type: none;
-    padding-left: 750px;
-
 }
 .main img{
 	display:block;
-	width: 20%;
-	margin: 0 auto;
-	padding-bottom: 10px;
-
 }
 
 .contact_form{
@@ -221,15 +219,23 @@ html {
 	float: right;
 	padding-bottom: 325px;
 }
-.wrapper{
-	width: 100%;
-	margin: auto auto;
-}
-
 .glyphicon:hover{
     color: blue;
     text-decoration: none;
 }
+
+/* form */
+.form-control{
+	width: 100%;
+}
+input{
+	color:black;
+}
+.btn-primary{
+	float:right;
+	margin-top: 10px;
+}
+
 /* Video */
 .video{
 	padding: 20px;
