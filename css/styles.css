@@ -195,6 +195,9 @@ html {
 	padding-top: 50px;
 
 }
+#contact h1{
+	text-align: center;
+}
 .main{
 	display: inline-block;
     margin: 0 auto;
@@ -230,24 +233,29 @@ html {
 }
 
 /* form */
-#form{
-    position:absolute;
-    top:50%;
-    right:0;
-    left:0;
+
+input{
+	color:black;
+}
+
+.btn-primary{
+	float: right;
+	margin-top: 2px;
 }
 .form-control{
 	width: 100%;
 	margin-top: 10px;
 }
-input{
-	color:black;
+#form{
+	vertical-align: right;
 }
-.btn-primary{
-	float: right;
-	margin-top: 2px;
+.form-group{
+
 }
 
+#message{
+	margin-top: 100px;
+}
 
 /* Video */
 .video{
