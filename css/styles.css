@@ -197,20 +197,25 @@ html {
 }
 .main{
 	display: inline-block;
-/*  border: 1px solid black; */
     margin: 0 auto;
+    padding: 20px;
+    text-shadow: 1px 0 black;
     width: 100%;
+
 }
 .main h2{
 	font-weight: 600;
 	color: #F8F8FF;
 	text-shadow: 2px 0 black;
+	text-align: center;
 }
 .main ul{
     list-style-type: none;
+    margin-left: 35%;
 }
 .main img{
 	display:block;
+	margin: 0 auto;
 }
 
 .contact_form{
@@ -225,16 +230,24 @@ html {
 }
 
 /* form */
+#form{
+    position:absolute;
+    top:50%;
+    right:0;
+    left:0;
+}
 .form-control{
 	width: 100%;
+	margin-top: 10px;
 }
 input{
 	color:black;
 }
 .btn-primary{
-	float:right;
-	margin-top: 10px;
+	float: right;
+	margin-top: 2px;
 }
+
 
 /* Video */
 .video{
