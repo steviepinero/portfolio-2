@@ -1,11 +1,11 @@
-html { 
+/*html { 
   background: url("../img/portfolioheroimage.jpg") no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
+*/
 /* Intro */
 #intro{
 	background-color: white;
@@ -135,9 +135,7 @@ html {
 #shortintro h2{
     text-align: center;
 }
-.row{
-    padding: 0 2%;
-}
+
 
 /*								WORK				*/
 #work{
@@ -160,8 +158,7 @@ html {
 
 /*        						FAQ 				*/
 #faq{
-	background-color: green;
-	background-color: #EA8676;
+	background-color: #84BE6A;
 	padding-bottom: 50px;
 }
 #faq h1{
@@ -170,6 +167,24 @@ html {
 }
 #accordion{
 	position: relative;
+}
+#modalframe {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+}
+.learn-more{
+	text-align: left;
+	float: left;
+	padding-left: 30px;
+	color: white;
+}
+.modal-body {
+	height: 500px;
+}
+.modal-button {
+	float:right;
+	padding: 15px;
 }
 .panel > .panel-heading{
 	background-color: #519548;
