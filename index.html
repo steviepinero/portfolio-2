@@ -5,11 +5,15 @@
 
   <title>Steve Chen</title>
 
+  
+  <!-- jQuery is required for Bootstrap to work -->
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
   <!-- Latest compiled and minified Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-  <!-- jQuery is required for Bootstrap to work -->
-  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <!--jQuery Script-->
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 
   <!--jQuery Media Script-->
   <script src="js/jquery.media.js" type="text/javascript"></script>
@@ -104,7 +108,7 @@
   </a>
 </div>
       <!-- Example row of columns -->
-      <div class="row">
+      <div class="row rowfix">
         <div class="col-md-4 col-xs-12">
           <h2>Portfolio Concept</h2>
           <p>In this portfolio I'll include my past web design work, social media links, and the tools in my journey to become a web developer.</p>
@@ -114,7 +118,7 @@
           <h2>Project Goals</h2>
           <p>I'd like to commit 3hrs per day working through careerfoundry and code everyday. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
+        </div>
         <div class="col-md-4 col-xs-12">
           <h2>Course Goals</h2>
           <p>Professionally, I'd like to get hired as an entry level Full Stack web developer. Ideally by displaying a variety of skills within web development to show my competence and necessary prerequisites for such a career.</p>
@@ -130,14 +134,12 @@
 <!-- ABOUT -->
 <div class="container anchor" id="about">
   <div class="container-fluid">
-    <div class="row">
       <div class="col-xs-12">
         <div class="header">
           <img src="img/face.jpg" alt="face" class="img-responsive">
           <h1> Steve Chen</h1>
         </div><!-- end header -->
-      </div>
-    </div>
+      </div><!-- end column -->
     <div class="row">
       <div class="col-md-6 col-xs-12"> 
         <div class="intro column" id="shortintro">
@@ -163,7 +165,7 @@
         </div><!-- end main_text -->
       </div><!-- col-md-12-->
   </div><!-- end container -->
-</div><!-- id=about -->
+</div><!-- end about -->
 
 <!-- WORK -->
 <div class="container anchor" id="work">
@@ -186,9 +188,8 @@
 
 <!-- FAQ -->
 <div class="container-fluid anchor" id="faq">
-  <div class="row">
+  <div class="row rowfix">
     <h1 class="learn-more">Learn More</h1>
-
 <!-- Modal Button -->
     <div class="modal-button">
       <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Resume

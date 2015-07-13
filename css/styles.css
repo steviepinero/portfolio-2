@@ -6,6 +6,9 @@
   background-size: cover;
 }
 */
+.rowfix{
+	margin-right: auto;
+}
 /* Intro */
 #intro{
 	background-color: white;
@@ -16,6 +19,7 @@
 	position: fixed;
 	width: 100%;
 	float:right;
+	margin-right: 0;
 }
 .nav img{
 	width: 2%;
@@ -79,9 +83,7 @@
 	padding-right: 0px;
 }
 
-.row{
-	margin-right: auto;
-}
+
 .anchor{
 	padding-top: 50px;
 }
