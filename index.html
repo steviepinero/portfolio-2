@@ -27,6 +27,19 @@
 
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
+  <!-- tooltip -->
+  <script>
+    $(function () {
+    $('#twitchlink').tooltip();
+     });
+  </script>
+
+  <!--button tooltip -->
+  <script>
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+  });
+  </script>
 </head>
 
 
@@ -109,20 +122,20 @@
 </div>
       <!-- Example row of columns -->
       <div class="row rowfix">
-        <div class="col-md-4 col-xs-12">
-          <h2>Portfolio Concept</h2>
+        <div class="col-lg-4 col-xs-12 3column">
+          <h2 class="centerh2">Web Developer</h2>
           <p>In this portfolio I'll include my past web design work, social media links, and the tools in my journey to become a web developer.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><!-- <a class="btn btn-default" href="#" role="button">View details &raquo;</a>--></p>
         </div>
-        <div class="col-md-4 col-xs-12">
-          <h2>Project Goals</h2>
-          <p>I'd like to commit 3hrs per day working through careerfoundry and code everyday. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-lg-4 col-xs-12">
+          <h2 class="centerh2">Fly Fisherman</h2>
+          <p>One of my most recent found passions are Fly Fishing. Every opportunity I get, I spend long evenings accross wading in a stream or on the side of a local lake.</p>
+          <p class="center-text"><a href="https://youtu.be/yyxcuSifsqs" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Go to youtube.com/stevegames">What is Fly Fishing?</button></a></p>
         </div>
-        <div class="col-md-4 col-xs-12">
-          <h2>Course Goals</h2>
-          <p>Professionally, I'd like to get hired as an entry level Full Stack web developer. Ideally by displaying a variety of skills within web development to show my competence and necessary prerequisites for such a career.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-lg-4 col-xs-12">
+          <h2 class="centerh2">Video Gamer</h2>
+          <p>During high school and college I played a TON of competitive video games. Mainly PC games. Traveled up and down the east coast. Lots of it was  live streamed on the <a href="http://www.twitch.tv/stevecgames" title="Link to Twitch channel" id="twitchlink" data-placement="bottom">Twitch.tv</a> platform.</p>
+          <p class="center-text"><a href="http://www.youtube.com/stevecgames" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Go to youtube.com/stevegames">Youtube</button></a></p>
         </div>
       </div>
 
@@ -141,13 +154,13 @@
         </div><!-- end header -->
       </div><!-- end column -->
     <div class="row">
-      <div class="col-md-6 col-xs-12"> 
+      <div class="col-lg-6 col-xs-12"> 
         <div class="intro column" id="shortintro">
           <h2>Introduction</h2>
           <p>Hey guys! I'm Steve, an aspiring developer in the DC area. My hobbies include fly fishing, video games, and kayaking.</p>
         </div><!-- end intro -->
       </div>
-      <div class="col-md-6 col-xs-12">
+      <div class="col-lg-6 col-xs-12">
         <div class="skills">
           <h2>My Skills</h2>
           <ul id="skill_list">
@@ -172,9 +185,9 @@
   <div class="container">
     <h1>Work</h1>
      <div class="row" id="rowOne">
-      <div class="col-md-4"><img src="img/wireframe.png" class="img-responsive"><h3>Work 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius tempus dui lacinia dictum. Integer in augue congue, efficitur felis eget, consectetur nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec suscipit mi convallis, imperdiet nibh id, aliquam purus. Nunc ac egestas urna. Sed id condimentum libero. Cras arcu odio, facilisis nec semper eu, iaculis et lectus.</p></div>
-      <div class="col-md-4"><img src="img/wireframe.png" class="img-responsive"><h3>Work 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius tempus dui lacinia dictum. Integer in augue congue, efficitur felis eget, consectetur nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec suscipit mi convallis, imperdiet nibh id, aliquam purus. Nunc ac egestas urna. Sed id condimentum libero. Cras arcu odio, facilisis nec semper eu, iaculis et lectus.</p></div>
-      <div class="col-md-4"><img src="img/wireframe.png" class="img-responsive"><h3>Work 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius tempus dui lacinia dictum. Integer in augue congue, efficitur felis eget, consectetur nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec suscipit mi convallis, imperdiet nibh id, aliquam purus. Nunc ac egestas urna. Sed id condimentum libero. Cras arcu odio, facilisis nec semper eu, iaculis et lectus.</p></div>
+      <div class="col-lg-4 col-md-4"><img src="img/wireframe.png" class="img-responsive"><h3>Work 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius tempus dui lacinia dictum. Integer in augue congue, efficitur felis eget, consectetur nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec suscipit mi convallis, imperdiet nibh id, aliquam purus. Nunc ac egestas urna. Sed id condimentum libero. Cras arcu odio, facilisis nec semper eu, iaculis et lectus.</p></div>
+      <div class="col-lg-4 col-md-4"><img src="img/wireframe.png" class="img-responsive"><h3>Work 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius tempus dui lacinia dictum. Integer in augue congue, efficitur felis eget, consectetur nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec suscipit mi convallis, imperdiet nibh id, aliquam purus. Nunc ac egestas urna. Sed id condimentum libero. Cras arcu odio, facilisis nec semper eu, iaculis et lectus.</p></div>
+      <div class="col-lg-4 col-md-4"><img src="img/wireframe.png" class="img-responsive"><h3>Work 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius tempus dui lacinia dictum. Integer in augue congue, efficitur felis eget, consectetur nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec suscipit mi convallis, imperdiet nibh id, aliquam purus. Nunc ac egestas urna. Sed id condimentum libero. Cras arcu odio, facilisis nec semper eu, iaculis et lectus.</p></div>
      </div>
 
     <div class="row" id="rowTwo">

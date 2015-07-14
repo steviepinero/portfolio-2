@@ -6,8 +6,12 @@
   background-size: cover;
 }
 */
+/* General */
 .rowfix{
 	margin-right: auto;
+}
+.center-text{
+	text-align: center;
 }
 /* Intro */
 #intro{
@@ -82,10 +86,11 @@
 	padding-left: 0px;
 	padding-right: 0px;
 }
-
-
 .anchor{
 	padding-top: 50px;
+}
+.3column{
+	margin: 50px;
 }
 
 /* 								About 										*/
@@ -93,6 +98,9 @@
 	text-align: center;
 	background-color: #E2DA99;
 	width: 100%;
+}
+.centerh2{
+	text-align: center;
 }
 .header img {
 	margin: 0 auto;
