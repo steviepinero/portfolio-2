@@ -47,13 +47,16 @@
 	height: 0;
 	padding: 0;
 }
-.navbar-header span{
+.portfolio a{
+	display:inline-block;
+}
+.portfolio span{
 	color:white;
-	margin: 30px 50px;
+	margin-left: 45px;
 }
 .navbar-header{
 	position:relative;
-	z-index: 1000;
+	z-index: 1400;
 }
 .portfolio{
     font-size: 16px;
