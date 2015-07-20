@@ -7,214 +7,220 @@
 }
 */
 
-/*.nav li{
-	float: right;
-}*/ 
-
-/* General */
-.rowfix{
-	margin-right: auto;
+/* General/Frequently used classes */
+.anchor {
+	padding-top: 50px;
 }
-.center-text{
+
+.center-text {
 	text-align: center;
 }
-/* Intro */
-#intro{
-	background-color: white;
+
+.light-shadow {
+	text-shadow: 1px 0 black; /* Creates thin shadow behind text. For white on white text */
+}
+
+.row {
+	margin: auto; /* Fixes extra margin causing vertical scroll bar */
 }
 
 /* navigation */
-.nav{
-	float:right;
-}
-
-.nav ul li{
+.nav {
 	float: right;
 }
 
-.nav ul li a{ 
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	color: white;
-	display: block;
+.nav ul {
+	float: right;
 }
 
-.nav a:hover{
-	color: #ff0;
-	text-decoration: none;
-}
-.navbar-brand{
+.navbar-brand {
 	height: 0;
 	padding: 0;
 }
-.portfolio a{
-	display:inline-block;
-}
-.portfolio span{
-	color:white;
-	margin-left: 45px;
-}
-.navbar-header{
-	position:relative;
+
+.navbar-header {
 	z-index: 1400;
 }
-.portfolio{
-    font-size: 16px;
-    padding: 13px;
+
+.home-header {
+    font-size: 25px;
+    padding: 15px;
+    margin-left: 15px;
     float: left;
+    display: block;
 }
-.portfolio a{
+
+.home-header img {
+	display: inline-block;
+}
+
+.home-header span {
 	color: white;
+	display: inline-block;
 }
-.portfolio img{
-	margin-left: 30px;
-
+.logo-font {
+	font-size: 20px;
+	vertical-align: middle;
 }
-
 
 /* Carousel */
-.panel-heading{
-	background-color: purple;
+.carousel-row {
+	background-color: #E8DDCB;
 }
 
 .carousel-caption h3{
-	color: white;
-	text-shadow: 1px 1px black;
+	text-shadow: 2px 2px black;
 }
-.carousel-caption p{
-	text-shadow: 1px 1px black;
-}
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
- }
-.container-fluid{
+
+.container-fluid {
 	padding-left: 0px;
 	padding-right: 0px;
 }
-.anchor{
-	padding-top: 50px;
-}
-.3column{
-	margin: 50px;
-}
+
 
 /* About */
-#about{
-	text-align: center;
-	background-color: #E2DA99;
-	width: 100%;
+#about {
+	background-image: url("../img/measures.jpg");
+	/* Add a background image */
+	background-attachment: fixed;
+	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
+	background-size: cover;
+	/* Have the background cover entire div */
+	color: white;
+	/* Change color of text on top so its readable, adjust padding as needed */
+
+	padding-top: 50px;
 }
-.centerh2{
-	text-align: center;
-}
-.header img {
+
+.circle-img {
 	margin: 0 auto;
-	border: 1px solid;
+	border: 1px solid black;
     border-radius: 100px;
 }
 
-.main_text {
+.story {
     clear: both;
     border: 4px dashed #342800;
     margin: 2% auto;
     width: 95%;
 }
-.main_text > h3{
-        text-align: center;
-}
-.main_text p{
-        margin: 10px;
-}
-.skills{
-        background-color: #342800;
-        color: #FFF;
-        padding-bottom: 10px;
-}
-.skills ul{
-        list-style: none;
-        text-align: center;
-        padding: 0;
-        margin: 0;
-}
-.skills h2{
-	text-align: center;
+
+.story p {
+    margin: 10px;
 }
 
-/* body {
-        background-color: #343838;
-        color: white;
-} */
-#shortintro p{
+.skills {
+    background-color: #033649;
+    color: #FFF;
+    padding-bottom: 10px;
+}
+
+.skills ul {
+    list-style: none;
     text-align: center;
-}
-#shortintro h2{
-    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
-
-/*								WORK				*/
-#work{
+/* WORK */
+#work {
 	width: 100%;
 	display: block;
-	background-color: #ADD8E6;
+	background-color: #E8DDCB;
 
 }
-#work h1{
-	text-align: center;
-}
-.row img{
+
+.workrow img {
 	margin: 0 auto;
 }
-.row h3{
-	text-align: center;
-}
 
-
-
-/*        						FAQ 				*/
-#faq{
-	background-color: #84BE6A;
+/* FAQ */
+#faq {
+	background-image: url("../img/mountaindock.jpg");
+	/* Add a background image */
+	background-attachment: fixed;
+	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
+	background-size: cover;
+	/* Have the background cover entire div */
+	color: white;
+	/* Change color of text on top so its readable, adjust padding as needed */
 	padding-bottom: 50px;
 }
-#faq h1{
-	text-align: center;
-	color:white;
+#faq h1 {
+	color: white;
 }
-#accordion{
+
+#accordion {
 	position: relative;
 }
+
 #modalframe {
 	padding: 10px;
 	width: 100%;
 	height: 100%;
 }
-.learn-more{
+
+.learn-more {
 	text-align: left;
 	float: left;
 	padding-left: 30px;
 	color: white;
 }
+
 .modal-body {
 	height: 500px;
 }
+
 .modal-button {
-	float:right;
+	float: right;
 	padding: 15px;
+	margin-right: auto;
 }
-.panel > .panel-heading{
-	background-color: #519548;
+
+.panel > .panel-heading {
+	background-color: #031634;
 	color: white;
-
-}
-.panel-body{
-	background-color: #A8DBA8;
 }
 
+.panel-body {
+	background-color: #436984;
+}
 
-/* contact */
-#contact{
+/* Form */
+input {
+	color:black;
+}
+
+.btn-primary {
+	float: right;
+	margin-top: 2px;
+}
+
+.form-control {
+	width: 100%;
+	margin-top: 10px;
+}
+
+#form {
+	vertical-align: right;
+}
+
+.message-box {
+	margin-top: 100px;
+}
+
+/* Video */
+.video {
+	padding: 20px;
+}
+
+.video iframe {
+	margin: 0 auto;
+	display: block;
+}
+
+/* Contact */
+#contact {
 	background-image: url("../img/appledesk.jpg");
 	/* Add a background image */
 	background-attachment: fixed;
@@ -225,116 +231,80 @@
 	/* Change color of text on top so its readable, adjust padding as needed */
 	padding: 100px;
 	padding-top: 50px;
+}
 
-}
-#contact h1{
-	text-align: center;
-}
-.main{
+.contact-column {
 	display: inline-block;
     margin: 0 auto;
     padding: 20px;
-    text-shadow: 1px 0 black;
     width: 100%;
-
 }
-.main h2{
+
+.contact-column h2 {
 	font-weight: 600;
 	color: #F8F8FF;
 	text-shadow: 2px 0 black;
-	text-align: center;
 }
-.main ul{
+
+.contact-column ul {
     list-style-type: none;
     margin-left: 35%;
 }
-.main img{
+
+.contact-column img {
 	display:block;
 	margin: 0 auto;
 }
 
-.contact_form{
+.contact_form {
 	border: 1px dotted black;
 	width: 45%;	
 	float: right;
 	padding-bottom: 325px;
 }
-.glyphicon:hover{
+
+.glyphicon:hover {
     color: blue;
     text-decoration: none;
 }
 
-/* form */
-
-input{
-	color:black;
-}
-
-.btn-primary{
-	float: right;
-	margin-top: 2px;
-}
-.form-control{
-	width: 100%;
-	margin-top: 10px;
-}
-#form{
-	vertical-align: right;
-}
-.form-group{
-
-}
-
-#message{
-	margin-top: 100px;
-}
-
-/* Video */
-.video{
-	padding: 20px;
-}
-.video iframe{
-	margin: 0 auto;
-	display: block;
-
-
-}
 /* Footer */
-footer{
+footer {
 	height: 25px;
 	padding-top: 5px;
 	background-color: black;
 	color:white;
-}
-footer p{
-	margin: 0;
-	padding: 0;
-	float: right;
-	margin-right: 100px;
+	width: 100%;
 }
 
-.fb-like{
-	float:right;
-	padding: 0 5px;
-}
-.twitter-follow-button{
+#copyright p {
+	margin-bottom: 0;
+	display: inline-block;
 	float: right;
+}
+
+.fb-like {
+	display:inline-block;
+	padding: 0 5px;
+	float: right;
+}
+
+.twitter-follow-button {
+	float: right;
+	display:inline-block;
 	min-width: 160px;
 	padding: 0 5px;
 }
 
-
-
 /* Typography */
-h1,
-h2,
-h3,
-h4,
+h1, 
+h2, 
+h3, 
+h4, 
 a, {
         font-family: 'Source Sans Pro', 'Roboto', 'Oxygen', sans-serif;
 }
- 
-p,
+p, 
 {
         font-family: Georgia, Palatino, serif;
 }
