@@ -16,6 +16,10 @@
 	text-align: center;
 }
 
+.center-item {
+	margin: 0 auto;
+}
+
 .light-shadow {
 	text-shadow: 1px 0 black; /* Creates thin shadow behind text. For white on white text */
 }
@@ -79,7 +83,7 @@
 
 
 /* About */
-#about {
+.about {
 	background-image: url("../img/measures.jpg");
 	/* Add a background image */
 	background-attachment: fixed;
@@ -93,7 +97,6 @@
 }
 
 .circle-img {
-	margin: 0 auto;
 	border: 1px solid black;
     border-radius: 100px;
 }
@@ -123,19 +126,19 @@
 }
 
 /* WORK */
-#work {
+.work {
 	width: 100%;
 	display: block;
 	background-color: #E8DDCB;
 
 }
 
-.workrow img {
+.work-row img {
 	margin: 0 auto;
 }
 
 /* FAQ */
-#faq {
+.faq {
 	background-image: url("../img/mountaindock.jpg");
 	/* Add a background image */
 	background-attachment: fixed;
@@ -146,7 +149,7 @@
 	/* Change color of text on top so its readable, adjust padding as needed */
 	padding-bottom: 50px;
 }
-#faq h1 {
+.faq h1 {
 	color: white;
 }
 
@@ -215,7 +218,6 @@ input {
 }
 
 .video iframe {
-	margin: 0 auto;
 	display: block;
 }
 
@@ -234,8 +236,6 @@ input {
 }
 
 .contact-column {
-	display: inline-block;
-    margin: 0 auto;
     padding: 20px;
     width: 100%;
 }
@@ -249,11 +249,6 @@ input {
 .contact-column ul {
     list-style-type: none;
     margin-left: 35%;
-}
-
-.contact-column img {
-	display:block;
-	margin: 0 auto;
 }
 
 .contact_form {
@@ -277,7 +272,7 @@ footer {
 	width: 100%;
 }
 
-#copyright p {
+.copyright p {
 	margin-bottom: 0;
 	display: inline-block;
 	float: right;
