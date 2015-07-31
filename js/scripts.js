@@ -1,10 +1,18 @@
-
 $(document).ready(function() {
 
 	alert("Document is ready!");
 	$(".comment-box").on("keyup", function() {
 		console.log("keyup happened");
+		var charCount = $(".comment-box").val().length;
+		console.log(charCount);
+		$("#char-count").html(charCount);
+		if(charCount > 50) {
+			$("#char-count").css("color", "red");
+		} else{
+			//black
+		};
 	});
+
 	$(".message-box").css("background-color", "yellow");
 	$("#button").on("click", function(){
 	// now we're going to work in here
