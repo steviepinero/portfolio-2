@@ -9,7 +9,7 @@ $(document).ready(function() {
 		if(charCount > 50) {
 			$("#char-count").css("color", "red");
 		} else{
-			//black
+			$("#char-count").css("color", "black");
 		};
 	});
 
