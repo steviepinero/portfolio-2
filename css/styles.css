@@ -1,6 +1,10 @@
-/* General/Frequently used classes */
+/* Frequently used classes */
 .anchor {
 	padding-top: 50px;
+}
+
+.black-text{
+	color: black;
 }
 
 .center-text {
@@ -178,6 +182,11 @@
 
 .panel-body {
 	background-color: #436984;
+}
+
+/* FAQ Table */
+.faq-table{
+	width:100%;
 }
 
 /* Form */

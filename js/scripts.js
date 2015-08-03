@@ -13,6 +13,19 @@ $(document).ready(function() {
 		};
 	});
 
+
+	var rows = $(".my-row");
+	console.log(rows);
+	//Makes every even row of the table pink and odd row white
+	for(var i=0; i<rows.length; ++i) {
+		if(i % 2 === 0) {
+			$(rows[i]).css("background-color", "pink");
+		} else{
+			$(rows[i]).css("background-color", "white");
+		};
+	};
+
+
 	$(".message-box").css("background-color", "yellow");
 	$("#button").on("click", function(){
 	// now we're going to work in here
@@ -23,6 +36,5 @@ $(document).ready(function() {
 		$("#visible-comment").html(comment);
 		return false;
 	}); // here we close the doc ready. no more code below here */
-
 });	
 
