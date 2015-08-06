@@ -20,6 +20,9 @@
   <!-- Latest compiled and minified Bootstrap JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
+  <!-- Google maps API -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCowTYS7ViDNzzPkVpsSdUVUDnc7F5lV9w"></script>
+
   <!-- Custom styles for this template go here -->
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto|Oxygen' rel='stylesheet' type='text/css'>
   <link href="css/styles.css" rel="stylesheet">
@@ -322,19 +325,27 @@
 <div class="contact container-fluid anchor light-shadow" id="contact">
   <h1 class="text-center">Contact</h1>
   <div class="row">
-  <div class="container col-lg-6 col-xs-12">
+  <div class="container col-lg-3 col-xs-12">
     <div class="contact-column">
-        <h2 class="text-center">Reach me at</h2>
-        <ul class="light-shadow">
+      <div id="map-canvas" style="height: 300px; width:300px;"></div>
+        <!--<div class="container" style="padding-left: 0">
+          <iframe width="250" 
+                  height="225" 
+                  frameborder="0" style="border:0" 
+                  src="https://www.google.com/maps/embed/v1/place?q=7401%20landover%20rd&key=AIzaSyAMalTeeRYiWudc1SEiFtch47NXib3yPRI">
+          </iframe>
+        </div> -->
+        <h2>Reach me at</h2>
+        <ul class="light-shadow text-thicker">
           <li><p><strong><span class="glyphicon glyphicon-earphone"</span></strong> 301-123-4567</p></li>
           <li><p><strong><span class="glyphicon glyphicon-envelope"</span></strong> steve@stevechen.me</p></li>
-          <li><p><strong><span class="glyphicon glyphicon-book"</span></strong> 123 fake st. <br>Washington, DC 20002</p></li>
+          <li><p><strong><span class="glyphicon glyphicon-book"</span></strong> 7401 landover rd. Hyattsville, MD 20785</p></li>
         </ul>
     </div><!-- /contact-column -->
   </div><!-- /wrapper -->
 
   <!-- FORM -->
-  <div class="container col-lg-6 col-xs-12">
+  <div class="container col-lg-9 col-xs-12">
     <form class="contact-column">
       <h2>Send me a message</h2>
         <!-- Name -->
@@ -370,7 +381,7 @@
     <p>&copy; stevechen.me</p>
   </div>
     <div class="fb-like text-center" data-href="https://www.facebook.com/steve.chen.908" data-width="450" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
-    <a href="https://twitter.com/SteveChenDC" class="twitter-follow-button text-center" data-show-count="true">Follow @SteveChenDC</a>
+    <a href="https://twitter.com/SteveChenDC" class="twitter-follow-button text-center" data-show-count="false">Follow @SteveChenDC</a>
 </footer>
 
 <!-- Smooth Scrolling Javascript -->

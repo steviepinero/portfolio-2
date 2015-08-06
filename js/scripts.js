@@ -4,14 +4,10 @@ var myKitties = [ { title: "First Project", pic: "https://www.petfinder.com/wp-c
 				  { title: "Fourth Project", pic: "http://www.animal-photography.com/thumbs/silver_tabby_kitten_looking_up~AP-0DLVMB-TH.jpg" }
 ];
 
-var mapOptions = {};
+
 
 $(document).ready(function() {
 	alert("Document is ready!");
-
-	function initialize(){
-		// you'll be working in here next
-	}
 
 	//For loop that calls myKitties object and the pic property by array
 	for(var i=0; i<myKitties.length; ++i) {
@@ -62,5 +58,29 @@ $(document).ready(function() {
 		$("#visible-comment").html(comment);
 		return false;
 	}); // here we close the doc ready. no more code below here */
+
+	function initialize() {
+		var mapOptions = {
+			center: new google.maps.LatLng(38.926224,-76.887826,17),
+			zoom: 8
+		};
+		var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+		// create a marker object:
+		var marker = new google.maps.Marker({
+			position: map.getCenter(),
+			map: map,
+			title: 'Click to zoom'
+		}); 
+
+		// create click event for marker object (zoom-in):
+		google.maps.event.addListener(marker, 'click', function(){
+			map.setZoom(15);
+			map.setCenter(marker.getPosition());
+		});
+	}; // end of google maps API 
+	google.maps.event.addDomListener(window, 'load', initialize);
+
+
 });	
 
