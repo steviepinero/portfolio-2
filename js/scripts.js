@@ -1,16 +1,24 @@
 var myKitties = [ { title: "First Project", pic: "https://www.petfinder.com/wp-content/uploads/2012/09/Blog-Kitty-Cam-solo.jpg" },
-{ title: "Second Project", pic: "http://www.animal-photography.com/thumbs/red_tabby_long_hair_kitten_~AP-0UJFTC-TH.jpg" }, 
-{ title: "Third Project", pic: "http://www.animal-photography.com/thumbs/silver_tabby_kittens~AP-0JO6Y9-TH.jpg" }, 
-{ title: "Fourth Project", pic: "http://www.animal-photography.com/thumbs/silver_tabby_kitten_looking_up~AP-0DLVMB-TH.jpg" }
+				  { title: "Second Project", pic: "http://www.animal-photography.com/thumbs/red_tabby_long_hair_kitten_~AP-0UJFTC-TH.jpg" }, 
+				  { title: "Third Project", pic: "http://www.animal-photography.com/thumbs/silver_tabby_kittens~AP-0JO6Y9-TH.jpg" }, 
+				  { title: "Fourth Project", pic: "http://www.animal-photography.com/thumbs/silver_tabby_kitten_looking_up~AP-0DLVMB-TH.jpg" }
 ];
+
+var mapOptions = {};
 
 $(document).ready(function() {
 	alert("Document is ready!");
 
+	function initialize(){
+		// you'll be working in here next
+	}
+
+	//For loop that calls myKitties object and the pic property by array
 	for(var i=0; i<myKitties.length; ++i) {
 		$("#" + i).css("background-image", "url(" + myKitties[i].pic + ")" );
 	};
 
+	//Calls title from myKitties upon mouse hover.
 	$(".image").mouseenter( function() {
 		console.log(this);
 		$(this).html("<p class='info'><span class='proj-title'>Title:</span>" + myKitties[this.id].title + "</p>");
@@ -18,6 +26,7 @@ $(document).ready(function() {
 		$("p.info").html("");
 	});
 
+	//If/else statement that shows up black or red while displaying on number of chracters.
 	$(".comment-box").on("keyup", function() {
 		console.log("keyup happened");
 		var charCount = $(".comment-box").val().length;

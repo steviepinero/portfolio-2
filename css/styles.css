@@ -49,6 +49,10 @@
 	margin: auto; /* Fixes extra margin causing vertical scroll bar */
 }
 
+.text-thicker{
+	font-weight: bold;
+}
+
 /* navigation */
 .nav {
 	float: right;
@@ -274,7 +278,6 @@ input {
 
 .contact-column ul {
     list-style-type: none;
-    margin-left: 35%;
 }
 
 .contact_form {
