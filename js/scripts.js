@@ -4,10 +4,7 @@ var myKitties = [ { title: "First Project", pic: "https://www.petfinder.com/wp-c
 				  { title: "Fourth Project", pic: "http://www.animal-photography.com/thumbs/silver_tabby_kitten_looking_up~AP-0DLVMB-TH.jpg" }
 ];
 
-
-
 $(document).ready(function() {
-	alert("Document is ready!");
 
 	//For loop that calls myKitties object and the pic property by array
 	for(var i=0; i<myKitties.length; ++i) {
