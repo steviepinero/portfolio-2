@@ -304,13 +304,13 @@ footer {
 .copyright p {
 	margin-bottom: 0;
 	display: inline-block;
-	float: right;
+	float: left;
 }
 
 .fb-like {
 	display:inline-block;
 	padding: 0 5px;
-	float: right;
+
 }
 
 .twitter-follow-button {
