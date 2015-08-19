@@ -310,7 +310,7 @@ footer {
 .fb-like {
 	display:inline-block;
 	padding: 0 5px;
-
+	float: left;
 }
 
 .twitter-follow-button {
