@@ -95,10 +95,11 @@
 /* Carousel */
 .carousel-row {
 	background-color:;
+	border-top: 1px solid black;
 }
 
 .carousel-caption h3{
-	text-shadow: 2px 2px black;
+	text-shadow: 5px solid black;
 }
 
 .container-fluid {
