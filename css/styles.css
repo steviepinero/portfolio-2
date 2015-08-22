@@ -308,17 +308,21 @@ footer {
 	float: left;
 }
 
-.fb-like {
-	display:inline-block;
+.social-media {
+	display: inline-block;
 	padding: 0 5px;
-	float: left;
+	float: right;
+	margin-bottom: 0px;
 }
 
-.twitter-follow-button {
+.fb-like{
+	display:inline-block;
 	float: right;
+}
+.twitter-follow-button {
 	display:inline-block;
 	min-width: 160px;
-	padding: 0 5px;
+	float: right;
 }
 
 /*html { 
