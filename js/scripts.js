@@ -45,7 +45,7 @@ $(document).ready(function() {
 	};
 
 
-	$(".message-box").css("background-color", "yellow");
+	$(".message-box").css("background-color", "grey");
 	$("#button").on("click", function(){
 	// now we're going to work in here
 		console.log("clicked");
