@@ -38,7 +38,7 @@ $(document).ready(function() {
 	//Makes every even row of the table pink and odd row white
 	for(var i=0; i<rows.length; ++i) {
 		if(i % 2 === 0) {
-			$(rows[i]).css("background-color", "pink");
+			$(rows[i]).css("background-color", "#436984");
 		} else{
 			$(rows[i]).css("background-color", "white");
 		};

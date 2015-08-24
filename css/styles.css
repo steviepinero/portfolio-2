@@ -217,9 +217,17 @@
 
 /* FAQ Table */
 .faq-table{
-	width:100%;
+	width:75%;
+	text-align: center;
 }
 
+.my-row th{
+	text-align: center;
+}
+
+td{
+	width: 33%;
+}
 /* Form */
 input {
 	color:black;
