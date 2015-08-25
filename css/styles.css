@@ -1,29 +1,3 @@
-/* Interactive table */
-.image {
-    box-sizing:border-box;
-    border:2px solid pink;
-    width:200px;
-    height:200px;
-    margin:5px;
-    display:inline-block;
-    position:relative;
-}
-.info {
-    display:inline-block;
-    color:#fff;
-    font-family:Futura;
-    text-transform:uppercase;
-    font-weight:700;
-    letter-spacing:0.5em;
-    line-height:1.6;
-    position:absolute;
-    top:15%;
-    left:22%;
-}
-.proj-title {
-    font-weight:100;
-}
-
 /* Frequently used classes */
 .anchor {
 	padding-top: 50px;
@@ -131,7 +105,6 @@
     clear: both;
     border: 2px solid #436984;
     margin: 2% auto;
-    width: 95%;
 }
 
 .story p {
@@ -159,11 +132,34 @@
 
 }
 
-.work-row img {
-	margin: 0 auto;
+/* Interactive section */
+.image {
+    box-sizing:border-box;
+    border:2px solid pink;
+    width:200px;
+    height:200px;
+    margin:5px;
+    display:inline-block;
+    position:relative;
+}
+.info {
+    display:inline-block;
+    color:#fff;
+    font-family:Futura;
+    text-transform:uppercase;
+    font-weight:700;
+    letter-spacing:0.5em;
+    line-height:1.6;
+    position:absolute;
+    top:15%;
+    left:22%;
+}
+.proj-title {
+    font-weight:100;
 }
 
-/* FAQ */
+
+/* Learn More/FAQ */
 .faq {
 	background-image: url("../img/mountaindock.jpg");
 	/* Add a background image */
@@ -228,6 +224,7 @@
 td{
 	width: 33%;
 }
+
 /* Form */
 input {
 	color:black;
