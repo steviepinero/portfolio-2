@@ -38,14 +38,14 @@ $(document).ready(function() {
 	//Makes every even row of the table pink and odd row white
 	for(var i=0; i<rows.length; ++i) {
 		if(i % 2 === 0) {
-			$(rows[i]).css("background-color", "pink");
+			$(rows[i]).css("background-color", "#436984");
 		} else{
 			$(rows[i]).css("background-color", "white");
 		};
 	};
 
 
-	$(".message-box").css("background-color", "yellow");
+	$(".message-box").css("background-color", "grey");
 	$("#button").on("click", function(){
 	// now we're going to work in here
 		console.log("clicked");
