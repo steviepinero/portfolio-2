@@ -68,8 +68,9 @@
 
 /* Carousel */
 .carousel-row {
-	background-color:;
+	background-color: #436984;
 	border-top: 1px solid black;
+	color: white;
 }
 
 .carousel-caption h3{
