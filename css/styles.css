@@ -130,7 +130,11 @@
 	width: 100%;
 	display: block;
 	background-color: #033649;
+<<<<<<< HEAD
 	color:white;
+=======
+	color: white;
+>>>>>>> 9f0ec1a29219f60d6d3faed37bbff56352e136f3
 }
 
 /* Interactive work*/
