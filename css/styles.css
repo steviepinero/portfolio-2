@@ -113,7 +113,7 @@
 }
 
 .skills {
-    background-color: #033649;
+    background-color:;
     color: #FFF;
     padding-bottom: 10px;
 }
@@ -129,13 +129,14 @@
 .work {
 	width: 100%;
 	display: block;
-	background-color: #436984;
+	background-color: #033649;
+	color:white;
 }
 
-/* Interactive section */
+/* Interactive work*/
 .image {
     box-sizing:border-box;
-    border:2px solid pink;
+    border:2px solid #436984;;
     width:200px;
     height:200px;
     margin:5px;
