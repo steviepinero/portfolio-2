@@ -27,6 +27,10 @@
 	font-weight: bold;
 }
 
+#wrapper{
+  width: 90%;
+  margin: auto;
+}
 /* navigation */
 .nav {
 	float: right;
@@ -68,9 +72,9 @@
 
 /* Carousel */
 .carousel-row {
-	background-color: #033649;
+	background-color: ;
 	border-top: 1px solid black;
-	color: white;
+	color:;
 }
 
 .carousel-caption h3{
@@ -129,8 +133,8 @@
 .work {
 	width: 100%;
 	display: block;
-	background-color: #033649;
-	color:white;
+	background-color: ;
+	color:;
 }
 
 /* Interactive work*/
@@ -251,11 +255,13 @@ input {
 
 /* Video */
 .video {
-	padding: 20px;
+	padding: 50px;
+	background-color:;
 }
 
 .video iframe {
 	display: block;
+	margin: 0 auto;
 }
 
 /* Contact */

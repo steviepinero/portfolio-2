@@ -41,7 +41,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
-
+<div id="wrapper">
 <!-- Fb js -->
  <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -101,6 +101,13 @@
     </div>
     <div class="item">
      <img src="img/jpg.jpg">
+      <div class="carousel-caption">
+        <h3 class="black-text">New logo</h3>
+        <p class="black-text">Thoughts? Opinions? <a href="#contact">Contact me!</a></p>
+      </div>
+    </div>
+     <div class="item">
+     <img src="img/mountaindock.jpg">
       <div class="carousel-caption">
         <h3 class="black-text">New logo</h3>
         <p class="black-text">Thoughts? Opinions? <a href="#contact">Contact me!</a></p>
@@ -305,16 +312,15 @@
 </div><!-- FAQ End -->
 
 <!-- Video -->
-<!-- <div class="video">
-  <iframe class="center-item" width="560" height="315" src="https://www.youtube.com/embed/Pwrwf_8H25Y" frameborder="0" allowfullscreen></iframe>
-  </video>
-</div> -->
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/i3pfsCS7fWI" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <!-- CONTACT -->
 <div class="contact container-fluid anchor light-shadow" id="contact">
   <h1 class="text-center">Contact</h1>
   <div class="row">
-    <div class="container col-lg-4 col-md-12 col-xs-12">
+    <div class="container col-lg-6 col-md-12 col-xs-12">
       <div class="contact-column">
         <div id="map-canvas" style="height: 300px; width:300px;"></div>
           <!--<div class="container" style="padding-left: 0">
@@ -334,7 +340,7 @@
     </div><!-- /wrapper -->
 
     <!-- FORM -->
-    <div class="container col-lg-8 col-md-12 col-xs-12">
+    <div class="container col-lg-6 col-md-12 col-xs-12">
       <form class="contact-column">
         <h2>Send me a message</h2>
           <!-- Name -->
@@ -391,6 +397,6 @@
     });
 </script>
 <!-- End Smooth Scrolling Javascript -->
-
+</div>
 </body>
 </html>
