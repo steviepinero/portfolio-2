@@ -1,3 +1,5 @@
+
+
 /* Frequently used classes */
 .anchor {
 	padding-top: 50px;
@@ -24,9 +26,11 @@
 }
 
 .text-thicker{
-	font-weight: bold;
-}
 
+}
+.intro-column{
+	padding-left: 00px;
+}
 #wrapper{
   width: 90%;
   margin: auto;
@@ -98,12 +102,14 @@
 	color: white;
 	/* Change color of text on top so its readable, adjust padding as needed */
 
-	padding-top: 50px;
+	padding:;
 }
 
 .circle-img {
 	border: 1px solid black;
     border-radius: 100px;
+    margin: 10px;
+    margin-top:20px;
 }
 
 .story {
@@ -134,7 +140,7 @@
 	width: 100%;
 	display: block;
 	background-color: ;
-	color:;
+	color: black;
 }
 
 /* Interactive work*/
@@ -168,9 +174,9 @@
 .faq {
 	background-image: url("../img/mountaindock.jpg");
 	/* Add a background image */
-	background-attachment: fixed;
+	background-attachment: ;
 	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
-	background-size: cover;
+	background-size: ;
 	/* Have the background cover entire div */
 	color: white;
 	/* Change color of text on top so its readable, adjust padding as needed */
@@ -274,8 +280,9 @@ input {
 	/* Have the background cover entire div */
 	color: white;
 	/* Change color of text on top so its readable, adjust padding as needed */
-	padding: 100px;
+
 	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 .contact-column {
@@ -309,9 +316,9 @@ input {
 footer {
 	height: 25px;
 	padding-top: 5px;
-	background-color: black;
+	background-color:;
 	color:white;
-	width: 100%;
+	
 }
 
 .copyright p {
@@ -346,7 +353,113 @@ footer {
 }
 */
 
+/* Social Media links */
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 4px;
+  width: 96px;
+  height: 96px;
+  font-size: 0;
+  text-indent: -9999px;
+}
 
+.icon-cube {
+  position: relative;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  overflow: visible;
+}
+
+.icon-cube::before,
+.icon-cube::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/icons5.png");
+  background-image: url("../img/icons5.svg"), none;
+  content: "";
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.icon-cube::before {
+  z-index: 2;
+  background-color: #595959;
+}
+
+.icon-cube::after {
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: translateY(48px) rotateX(-90deg);
+          transform: translateY(48px) rotateX(-90deg);
+}
+
+.icon-cube:hover::before {
+  opacity: 0;
+  -webkit-transform: translateY(-48px) rotateX(90deg);
+          transform: translateY(-48px) rotateX(90deg);
+}
+
+.icon-cube:hover::after {
+  opacity: 1;
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
+}
+
+/* facebook */
+.icon-cube.facebook::before,
+.icon-cube.facebook::after {
+  background-position: 0 0;
+}
+
+.icon-cube.facebook::after {
+  background-color: #3b5998;
+}
+
+/* twitter */
+.icon-cube.twitter::before,
+.icon-cube.twitter::after {
+  background-position: -96px 0;
+}
+
+.icon-cube.twitter::after {
+  background-color: #4099ff;
+}
+
+/* google plus */
+.icon-cube.googleplus::before,
+.icon-cube.googleplus::after {
+  background-position: -192px 0;
+}
+
+.icon-cube.googleplus::after {
+  background-color: #d34836;
+}
+
+/* github */
+.icon-cube.github::before,
+.icon-cube.github::after {
+  background-position: -288px 0;
+}
+
+.icon-cube.github::after {
+  background-color: #333333;
+}
+
+/* rss */
+.icon-cube.rss::before,
+.icon-cube.rss::after {
+  background-position: -384px 0;
+}
+
+.icon-cube.rss::after {
+  background-color: #ee802f;
+}
 /* Typography */
 h1, 
 h2, 
@@ -358,4 +471,8 @@ a, {
 p, 
 {
         font-family: Georgia, Palatino, serif;
+}
+
+.ruby-color p:hover{
+	color:red;
 }
