@@ -1,8 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald|Roboto|Oxygen);
+/*New Nav */
+figure {
+  margin: 0 0 20px 0;
+}
 
+figure img {
+  display: block;
+
+}
+
+figcaption {
+  padding: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  border-top:;
+  width: 500px;
+  font-style: ;
+}
 
 /* Frequently used classes */
 .anchor {
-	padding-top: 50px;
+	padding-top: 40px;
 }
 
 .black-text{
@@ -76,7 +93,7 @@
 
 /* Carousel */
 .carousel-row {
-	background-color: ;
+	background-color:;
 	border-top: 1px solid black;
 	color:;
 }
@@ -93,13 +110,14 @@
 
 /* About */
 .about {
-	background-image: url("../img/measures.jpg");
+/*	background-image: url("../img/measures.jpg");*/
 	/* Add a background image */
 	background-attachment: fixed;
 	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
 	background-size: cover;
 	/* Have the background cover entire div */
 	color: white;
+	background-color: black;
 	/* Change color of text on top so its readable, adjust padding as needed */
 
 	padding:;
@@ -172,9 +190,9 @@
 
 /* Learn More/FAQ */
 .faq {
-	background-image: url("../img/mountaindock.jpg");
+	background-image: url("../img/moon.png");
 	/* Add a background image */
-	background-attachment: ;
+	background-attachment: fixed;
 	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
 	background-size: ;
 	/* Have the background cover entire div */
@@ -251,10 +269,29 @@ input {
 	margin-top: 10px;
 }
 
-#form {
-	vertical-align: right;
+form    {
+background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+margin:auto;
+position:relative;
+width:550px;
+height:375px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: ;
+line-height: 24px;
+font-weight: bold;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
-
 .message-box {
 	margin-top: 100px;
 }
@@ -272,7 +309,7 @@ input {
 
 /* Contact */
 .contact {
-	background-image: url("../img/moon.jpg");
+	background-image: url("../img/moon.png");
 	/* Add a background image */
 	background-attachment: fixed;
 	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
@@ -460,19 +497,19 @@ footer {
 .icon-cube.rss::after {
   background-color: #ee802f;
 }
+
 /* Typography */
 h1, 
 h2, 
 h3, 
 h4, 
 a, {
-        font-family: 'Source Sans Pro', 'Roboto', 'Oxygen', sans-serif;
+        font-family: 'Oswald', 'Roboto', 'Oxygen', ;
 }
 p, 
 {
-        font-family: Georgia, Palatino, serif;
+        font-family: 'Oswald', 'Roboto', 'Oxygen', ;
 }
-
-.ruby-color p:hover{
-	color:red;
+h2 {
+	font-size: 36px
 }
