@@ -110,7 +110,7 @@ figcaption {
 
 /* About */
 .about {
-/*	background-image: url("../img/measures.jpg");*/
+/*	background-image: url("../images/measures.jpg");*/
 	/* Add a background image */
 	background-attachment: fixed;
 	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
@@ -190,7 +190,7 @@ figcaption {
 
 /* Learn More/FAQ */
 .faq {
-	background-image: url("../img/moon.png");
+	background-image: url("../images/moon.png");
 	/* Add a background image */
 	background-attachment: fixed;
 	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
@@ -309,7 +309,7 @@ box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 
 /* Contact */
 .contact {
-	background-image: url("../img/moon.png");
+	background-image: url("../images/moon.png");
 	/* Add a background image */
 	background-attachment: fixed;
 	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
@@ -339,7 +339,7 @@ box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 
 .contact_form {
 	border: 1px dotted black;
-	width: 45%;	
+	width: 45%;
 	float: right;
 	padding-bottom: 325px;
 }
@@ -355,7 +355,7 @@ footer {
 	padding-top: 5px;
 	background-color:;
 	color:white;
-	
+
 }
 
 .copyright p {
@@ -381,8 +381,8 @@ footer {
 	float: right;
 }
 
-/*html { 
-  background: url("../img/portfolioheroimage.jpg") no-repeat center fixed; 
+/*html {
+  background: url("../img/portfolioheroimage.jpg") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -417,8 +417,8 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("../img/icons5.png");
-  background-image: url("../img/icons5.svg"), none;
+  background: url("../images/icons5.png");
+  background-image: url("../images/icons5.svg"), none;
   content: "";
   -webkit-transition: all 0.3s;
           transition: all 0.3s;
@@ -499,14 +499,14 @@ footer {
 }
 
 /* Typography */
-h1, 
-h2, 
-h3, 
-h4, 
+h1,
+h2,
+h3,
+h4,
 a, {
         font-family: 'Oswald', 'Roboto', 'Oxygen', ;
 }
-p, 
+p,
 {
         font-family: 'Oswald', 'Roboto', 'Oxygen', ;
 }
