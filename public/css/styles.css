@@ -110,7 +110,7 @@ figcaption {
 
 /* About */
 .about {
-/*	background-image: url("../images/measures.jpg");*/
+	background-image: url("../images/measures.jpg");
 	/* Add a background image */
 	background-attachment: fixed;
 	/* Give the background a fixed position. So it doesn't scroll when user scrolls */
