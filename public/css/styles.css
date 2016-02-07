@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald|Roboto|Oxygen);
-/*New Nav */
+/* Fixed Nav */
+
+
+
 figure {
   margin: 0 0 20px 0;
 }
@@ -512,4 +515,15 @@ p,
 }
 h2 {
 	font-size: 36px
+}
+
+/* Removes float when navbar collapses. */
+@media (max-width: 767px) {
+  .navbar-collapse {
+  text-align:center;
+}
+.navbar-nav {
+    display:inline-block;
+    float:none;
+}
 }
