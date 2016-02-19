@@ -112,7 +112,7 @@ figcaption {
 
 
 /* About */
-.about {
+#about {
 	background-image: url("../images/measures.jpg");
 	/* Add a background image */
 	background-attachment: fixed;
@@ -123,7 +123,8 @@ figcaption {
 	background-color: black;
 	/* Change color of text on top so its readable, adjust padding as needed */
 
-	padding:;
+	padding-bottom: 25px;
+  margin-top: 25px;
 }
 
 .circle-img {
